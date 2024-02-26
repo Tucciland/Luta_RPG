@@ -1,4 +1,4 @@
-let personagem = new Mago('Alek San')
+let personagem = new Guerreiro('Alek San')
 let monstro = new monstroGrande()
 let log = new Log(document.querySelector('.area-log'))
 

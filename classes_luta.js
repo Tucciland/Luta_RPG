@@ -117,12 +117,12 @@ class Senario {
 
     atacando(atacante, atacado) {
         if (atacante.vida <= 0) {
-            this.log.addMensagem(`${atacante.nome} está morto.`)
+            this.log.addMensagem(`${atacante.nome} está morto. Reinicie o jogo!`)
             atacante.statusAtual = atacante.cMorto
             this.update()
             return
         }else if (atacado.vida <= 0) {
-            this.log.addMensagem(`${atacado.nome} está morto.`)
+            this.log.addMensagem(`${atacado.nome} está morto. Reinicie o jogo!`)
             atacado.statusAtual = atacado.cMorto
             this.update()
             return
